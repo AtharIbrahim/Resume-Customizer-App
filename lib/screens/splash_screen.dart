@@ -34,11 +34,11 @@ class SplashScreen extends StatelessWidget {
                 // Animated logo (replace with your own asset)
                 // Hero(
                 //   tag: 'app-logo',
-                //   // child: SvgPicture.asset(
-                //   //   'assets/logo.svg', // Use your logo file
-                //   //   width: size.width * 0.4,
-                //   //   color: theme.colorScheme.onPrimary,
-                //   // ),
+                //   child: Image.asset(
+                //     'assets/logo/logo.jpg', // Use your logo file
+                //     width: size.width * 0.4,
+                //     color: theme.colorScheme.onPrimary,
+                //   ),
                 // ),
                 const SizedBox(height: 24),
 

@@ -41,6 +41,7 @@ dependencies:
   http:
   open_file:
   pdf:
+  flutter_launcher_icons:
 
 dev_dependencies:
   flutter_test:
@@ -56,6 +57,24 @@ dev_dependencies:
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
+flutter_launcher_icons:
+  image_path: "assets/logo/logo.jpg"
+  android: true
+  ios: true
+  web:
+    generate: true
+    image_path: "assets/logo/logo.jpg"
+  windows:
+    generate: true
+    image_path: "assets/logo/logo.jpg"
+  macos:
+    generate: true
+    image_path: "assets/logo/logo.jpg"
+  linux:
+    generate: true
+    image_path: "assets/logo/logo.jpg"
+
+
 # The following section is specific to Flutter packages.
 flutter:
 
@@ -65,8 +84,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/logo/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
